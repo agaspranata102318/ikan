@@ -1,6 +1,6 @@
 FROM debian:bullseye-slim
 
-LABEL author="deline" maintainer="(EMAIL KAMU IKAN)"
+LABEL author="agas" maintainer="bagasalvi99@gmail.com"
 
 ENV DEBIAN_FRONTEND=noninteractive \
     USER=container \
