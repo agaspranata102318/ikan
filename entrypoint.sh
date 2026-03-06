@@ -57,6 +57,5 @@ echo "Python     : v$(python3 --version 2>/dev/null | awk '{print $2}' || echo '
 echo "Playwright : $(playwright --version 2>/dev/null | head -n 1 || echo 'Not Installed')"
 echo "----------------------------------------------------------"
 echo "Silahkan masukan perintah."
-echo "----------------------------------------------------------"
 
 exec /bin/bash
