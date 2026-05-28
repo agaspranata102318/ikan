@@ -57,6 +57,6 @@ echo "Golang     : v$(go version 2>/dev/null | awk '{print $3}' | sed 's/go//' |
 echo "Python3    : v$(python3 --version 2>/dev/null | awk '{print $2}' || echo 'Not Installed')"
 echo "Playwright : $(playwright --version 2>/dev/null | head -n 1 || echo 'Not Installed')"
 echo "----------------------------------------------------------"
-echo "Silahkan masukan perintah."
+echo "silahkan masukan perintah."
 
 exec /bin/bash
